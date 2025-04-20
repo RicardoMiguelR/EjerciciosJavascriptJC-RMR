@@ -2,8 +2,8 @@ const content = document.getElementById("content");
 const resultado = document.getElementById("resultado");
 
 // Arreglo de numeros para la funcion ->
-// Agrega aqui los numeros que quieras:
-let nums = [];
+// Agrega aqui los numeros que quieras para hacer las pruebas:
+let nums = [4, 6, 2, 9, 6, 3, 8];
 
 // Iteracion para mostrar cada numero en el arreglo ->
 nums.forEach((num) => {

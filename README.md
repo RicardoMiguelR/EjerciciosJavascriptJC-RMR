@@ -1,11 +1,9 @@
 # Generation México CH53 🚀
-
-## ✅ Ejercicios de práctica de Javascript
-
 ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white)
+
 
 📝 **Codigo para actualizar el proyecto:**
 ```bash
@@ -21,6 +19,8 @@ git push origin main
 - 🎨 **Bootstrap**
 - 🧠 **JavaScript**
 - 🧪 **CSS** 
+
+## ✅ Ejercicios de práctica de Javascript
 
 ### 📌 Ejercicio 1
 

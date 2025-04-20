@@ -1,19 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/index.css" />
     <title>Ejercicio2</title>
   </head>
   <body>
-    <main class="container">
-      <h1 id="encabezado">Ejercicio #2</h1>
+    <main class="container" style="margin-bottom: 5rem">
+      <div class="principal-body" style="margin-top: 3rem">
+        <h1 id="encabezado">Ejercicio #2</h1>
+        <strong>Instrucciones:</strong>
+        <p>
+          María llega a su entrevista de trabajo para el rol de Desarrollador
+          Junior y se le pide que resuelva este problema: Dada una lista de
+          números [-1, 3, 4, 2, 6], escribe una función en javascript para
+          calcular el número más pequeño. (No se debe utilizar la función
+          Math.min)
+        </p>
+        <hr />
+        <div class="return-home" style="margin-bottom: 2rem; justify-self: end">
+          <button class="button">
+            <a
+              href="/"
+              style="text-decoration: none; color: rgb(252, 252, 252)"
+            >
+              <strong>Regresar al index</strong>
+            </a>
+          </button>
+        </div>
+        <div class="title-e2" style="margin-bottom: 1rem">
+          <strong>Ejercicio Resuelto:</strong>
+        </div>
+        <div
+          class="content-body"
+          style="
+            width: 50%;
+            margin: auto;
+            background: black;
+            color: rgba(240, 255, 255, 0.808);
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 1rem;
+          "
+        >
+          <div
+            id="content"
+            style="
+              background: rgba(128, 128, 128, 0.39);
+              border-radius: 5px;
+              padding: 1rem;
+            "
+          >
+            <strong>Agrega números en la lista:</strong>
+          </div>
+          <div id="resultado" style="padding-top: 1rem"></div>
+        </div>
+      </div>
     </main>
 
-    
-    <script src="./js/main.js"></script> 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="../jsPages/ejercicio2.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
